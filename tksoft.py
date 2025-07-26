@@ -129,7 +129,7 @@ class BlurApp:
         if self.fps <= 0:
             self.fps = 30
 
-        self.video_writer = cv2.VideoWriter("output_blurred.mp4",
+        self.video_writer = cv2.VideoWriter("normal_behavior.mp4",
                                             cv2.VideoWriter_fourcc(*"mp4v"),
                                             self.fps, (self.out_w, self.out_h))
 
